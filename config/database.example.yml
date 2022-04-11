@@ -24,6 +24,8 @@ default: &default
 development:
   <<: *default
   database: jungle_development
+    username: labber
+    password: labber
   # username: development
   # password: development
 
